@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ja" class="h-100">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>マナー&マナー</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <!-- CSSの設定ファイル -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body class="text-center">
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./../index.html">マナー＆マナー</a>
+        <!-- スマホの際はトグルスイッチを表示させる -->
+        <button
+          type="button"
+          class="navbar-toggler d-md-none"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll"
+          aria-expanded="false"
+          aria-label="ナビゲーションバーの切替"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul
+            class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll d-md-none"
+            style="--bs-scroll-height: 100px"
+          >
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">ホーム</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">リンク</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarScrollingDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                ドロップダウン
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarScrollingDropdown"
+              >
+                <li><a class="dropdown-item" href="#">メニュー1</a></li>
+                <li><a class="dropdown-item" href="#">メニュー2</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">その他</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">無効</a>
+            </li>
+          </ul>
+          <!-- 検索ボタンは不要なのでコメントアウト
+            <form class="d-flex" role="search">
+            <input type="search" class="form-control me-sm-2" placeholder="検索..." aria-label="検索...">
+            <button type="submit" class="btn btn-outline-success flex-shrink-0">検索</button>
+          </form> -->
+        </div>
+      </div>
+    </nav>
+    <main class="">
+      <div class="container-fluid">
+        <div class="row">
+          <!-- md以上は３／１２で表示する -->
+          <div class="col-md-2 d-md-block d-none bg-light">
+            <div class="position-sticky pt-md-5">
+              <ul class="nav flex-column">
+                <li class="nav-item py-3">
+                  <a href="#">裏マナー＆マナーへ</a>
+                </li>
+                <li class="nav-item py-3"><a href="#">マナーを投稿する</a></li>
+                <li class="nav-item py-3"><a href="#">問い合わせ</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-10 col-12 bg-white">
+            <h1 class="text-warning">グットマナーマップ</h1>
+            <p class="">
+              マナーの良い街や場所を一覧にしています。みんなで住みやすい町を目指しましょう！！
+            </p>
+            <p class="lead">
+              <a
+                href="#"
+                class="btn btn-secondary fw-bold border-black bg-danger"
+                >グットマナーを登録する</a
+              >
+            </p>
+            <div class="iframe-body">
+              <iframe
+                src="https://www.google.com/maps/d/u/0/embed?mid=142rgXtqWAhCbx3q3V5rVatp3_UylQUQ&ehbc=2E312F"
+                class="iframe-body-contents"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="mt-auto text-white-50"></footer>
+    <!-- /.cover-container -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
