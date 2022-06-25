@@ -90,8 +90,9 @@ body {
   width: 100%;
   padding-top: 56.25%;
 }
+/*スマホの時は地図の高さをより大きくする*/
 @media screen and (max-width: 639px) {
-  .iframe-body {  
+  .iframe-body {
     padding-top: 100%;
   }
 }

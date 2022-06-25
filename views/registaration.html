@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ja" class="h-100">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=yes"
+    />
+    <title>マナー登録</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <!-- CSSの設定ファイル -->
+    <link rel="stylesheet" href="./../css/style.css" />
+  </head>
+
+  <body class="text-center">
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./../index.html">マナマナ</a>
+        <!-- スマホの際はトグルスイッチを表示させる -->
+        <button
+          type="button"
+          class="navbar-toggler d-md-none"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll"
+          aria-expanded="false"
+          aria-label="ナビゲーションバーの切替"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul
+            class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll d-md-none"
+          >
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="./badpage.html"
+                >裏マナマナ</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >マナー投稿</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">問い合わせ</a>
+            </li>
+          </ul>
+          <!-- 検索ボタンは不要なのでコメントアウト
+            <form class="d-flex" role="search">
+            <input type="search" class="form-control me-sm-2" placeholder="検索..." aria-label="検索...">
+            <button type="submit" class="btn btn-outline-success flex-shrink-0">検索</button>
+          </form> -->
+        </div>
+      </div>
+    </nav>
+    <main>
+      <div class="container-fluid">
+        <div class="row">
+          <!-- md以上は３／１２で表示する -->
+          <div class="col-md-2 d-md-block d-none bg-light">
+            <div class="position-sticky pt-md-5">
+              <ul class="nav flex-column">
+                <li class="nav-item py-3">
+                  <a href="./badpage.html">裏マナマナへ</a>
+                </li>
+                <li class="nav-item py-3">
+                  <a href="#">マナーを投稿する</a>
+                </li>
+                <li class="nav-item py-3">
+                  <a href="./contact.html">問い合わせ</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-10 col-12 bg-white">
+            <h1 class="text-warning">マナマナ登録</h1>
+            <p class="">
+              以下のフォームへマナーの情報登録をお願いします
+              <br />※個人情報や過剰な表現はお控えください
+            </p>
+            <div class="iframe-body">
+              <iframe
+                src="https://docs.google.com/forms/d/e/1FAIpQLSe_IJODfIP0B-zqV_eeofCneAnnLmt0B5McDyLFVz_e6kzjpA/viewform?embedded=true"
+                class="iframe-body-contents"
+                frameborder="0"
+                marginheight="0"
+                marginwidth="0"
+                >読み込んでいます…</iframe
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="mt-auto text-white-50"></footer>
+    <!-- /.cover-container -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
